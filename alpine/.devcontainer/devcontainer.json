@@ -5,17 +5,20 @@
     ],
     "service": "python-dev",
     "workspaceFolder": "/WORKDIR",
-    "extensions": [
-        "ms-python.python",
-        "ms-python.vscode-pylance",
-        "VisualStudioExptTeam.vscodeintellicode",
-        "VisualStudioExptTeam.vscodeintellicode-completions",
-        "VisualStudioExptTeam.intellicode-api-usage-examples",
-        "KevinRose.vsc-python-indent",
-        "LittleFoxTeam.vscode-python-test-adapter",
-        "dongli.python-preview",
-        "formulahendry.code-runner",
-        "MS-CEINTL.vscode-language-pack-ja",
-        "oderwat.indent-rainbow"
-    ]
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "VisualStudioExptTeam.vscodeintellicode",
+                "VisualStudioExptTeam.vscodeintellicode-completions",
+                "VisualStudioExptTeam.intellicode-api-usage-examples",
+                "KevinRose.vsc-python-indent",
+                "LittleFoxTeam.vscode-python-test-adapter",
+                "dongli.python-preview",
+                "formulahendry.code-runner",
+                "oderwat.indent-rainbow"
+            ]
+        }
+    }
 }
