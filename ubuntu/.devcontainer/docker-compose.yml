@@ -6,8 +6,8 @@ services:
         - USER=${USER:-user} # Your User Name
         - USER_ID=${USER_ID:-1000} # Your User ID
         - GROUP_ID=${GROUP_ID:-1000} # Your GROUP ID
-        - DEBIAN_VERSION_NAME=${DEBIAN_VERSION_NAME:-stable} # debian code name
-    image: python-dev:debian
+        - UBUNTU_VERSION_NAME=${UBUNTU_VERSION_NAME:-latest} # ubuntu code name
+    image: python-dev:ubuntu
     container_name: python-dev
     volumes:
       - type: bind
