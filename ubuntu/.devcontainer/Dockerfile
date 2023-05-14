@@ -1,6 +1,6 @@
-ARG DEBIAN_VERSION_NAME=stable
+ARG UBUNTU_VERSION_NAME=latest
 
-FROM debian:${DEBIAN_VERSION_NAME}-slim
+FROM ubuntu:${UBUNTU_VERSION_NAME}
 
 # Your Property
 ARG USER=user
