@@ -15,9 +15,7 @@
                 "VisualStudioExptTeam.intellicode-api-usage-examples",
                 "KevinRose.vsc-python-indent",
                 "LittleFoxTeam.vscode-python-test-adapter",
-                "dongli.python-preview",
-                "formulahendry.code-runner",
-                "oderwat.indent-rainbow"
+                "formulahendry.code-runner"
             ]
         }
     }
